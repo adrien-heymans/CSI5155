@@ -1,0 +1,29 @@
+,Drug,Recall,Precision,Balanced Accuracy,Selected Features
+0,TREE_CLASSIFIER,*,*,*,*
+1,amphet,0.6501766784452296,0.6358088925958181,0.5895826405054871,"['age', 'country', 'cscore', 'impulsive', 'ss']"
+2,canabis,0.7561837455830389,0.7682082892838946,0.7402740905503337,"['age', 'country', 'ethnicity', 'oscore', 'cscore', 'ss']"
+3,ecstasy,0.6996466431095406,0.6977323005758118,0.6842883836810962,"['age', 'oscore', 'cscore', 'ss']"
+4,legalh,0.7473498233215548,0.7451504532360541,0.7313661372365826,"['age', 'gender', 'oscore', 'cscore', 'ss']"
+5,lsd,0.7809187279151943,0.7809187279151943,0.7278170761975676,"['age', 'country', 'ethnicity', 'oscore', 'ss']"
+6,mushrooms,0.7862190812720848,0.7864753309714133,0.7650599094823436,"['age', 'country', 'oscore', 'cscore', 'ss']"
+7,SVM_CLASSIFIER,*,*,*,*
+8,amphet,0.7173144876325088,0.7159544790854665,0.6838210841370136,"['age', 'country', 'cscore', 'impulsive', 'ss']"
+9,canabis,0.8197879858657244,0.8175400407057514,0.7855636076630552,"['age', 'country', 'ethnicity', 'oscore', 'cscore', 'ss']"
+10,ecstasy,0.7137809187279152,0.7133823115537219,0.7018322433302191,"['age', 'oscore', 'cscore', 'ss']"
+11,legalh,0.7773851590106007,0.7755632935759184,0.7607962213225371,"['age', 'gender', 'oscore', 'cscore', 'ss']"
+12,lsd,0.8197879858657244,0.8253665697100855,0.789681062298337,"['age', 'country', 'ethnicity', 'oscore', 'ss']"
+13,mushrooms,0.7756183745583038,0.7825621281005363,0.765211230792511,"['age', 'country', 'oscore', 'cscore', 'ss']"
+14,RANDOM_FOREST_CLASSIFIER,*,*,*,*
+15,amphet,0.6625441696113075,0.6613066434795479,0.6236559139784946,"['age', 'country', 'cscore', 'impulsive', 'ss']"
+16,canabis,0.7773851590106007,0.7787367234238495,0.7470761282915979,"['age', 'country', 'ethnicity', 'oscore', 'cscore', 'ss']"
+17,ecstasy,0.7137809187279152,0.7171261099411865,0.7075417834527147,"['age', 'oscore', 'cscore', 'ss']"
+18,legalh,0.7756183745583038,0.7761288550592913,0.7678812415654521,"['age', 'gender', 'oscore', 'cscore', 'ss']"
+19,lsd,0.7544169611307421,0.74858395315742,0.6822877885331348,"['age', 'country', 'ethnicity', 'oscore', 'ss']"
+20,mushrooms,0.7438162544169611,0.7505176024080618,0.7289904117315285,"['age', 'country', 'oscore', 'cscore', 'ss']"
+21,KNN_CLASSIFIER,*,*,*,*
+22,amphet,0.6996466431095406,0.7019359323408445,0.6703802239219598,"['age', 'country', 'cscore', 'impulsive', 'ss']"
+23,canabis,0.8215547703180212,0.825586489788452,0.8044270646480591,"['age', 'country', 'ethnicity', 'oscore', 'cscore', 'ss']"
+24,ecstasy,0.7031802120141343,0.7055317300582218,0.6950975812311845,"['age', 'oscore', 'cscore', 'ss']"
+25,legalh,0.7809187279151943,0.7803482498944653,0.7708917263573134,"['age', 'gender', 'oscore', 'cscore', 'ss']"
+26,lsd,0.7915194346289752,0.7997294225209419,0.7584388185654009,"['age', 'country', 'ethnicity', 'oscore', 'ss']"
+27,mushrooms,0.773851590106007,0.7846364760574567,0.7685884473057929,"['age', 'country', 'oscore', 'cscore', 'ss']"
