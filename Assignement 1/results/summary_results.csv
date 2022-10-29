@@ -1,29 +1,29 @@
-,Drug,Recall,Precision,Balanced Accuracy,Selected Features,,,,,Summary ,,,
-0,TREE_CLASSIFIER,*,*,*,*,,,,,Drugs,Average Recall,Average Precision,Average Accuracy
-1,amphet,0.703180212,0.700374154,0.665668995,"['age', 'country', 'cscore', 'impulsive', 'ss']",,,,,amphet,0.722614841,0.717992249,0.682920408
-2,canabis,0.756183746,0.768208289,0.740274091,"['age', 'country', 'ethnicity', 'oscore', 'cscore', 'ss']",,,,,canabis,0.82155477,0.82558649,0.804427065
-3,ecstasy,0.699646643,0.697732301,0.684288384,"['age', 'oscore', 'cscore', 'ss']",,,,,ecstasy,0.713780919,0.713382312,0.701832243
-4,legalh,0.747349823,0.745150453,0.731366137,"['age', 'gender', 'oscore', 'cscore', 'ss']",,,,,legalh,0.782685512,0.783939195,0.776653171
-5,lsd,0.780918728,0.780918728,0.727817076,"['age', 'country', 'ethnicity', 'oscore', 'ss']",,,,,lsd,0.819787986,0.82536657,0.789681062
-6,mushrooms,0.786219081,0.786475331,0.765059909,"['age', 'country', 'oscore', 'cscore', 'ss']",,,,,mushrooms,0.786219081,0.786475331,0.768588447
-7,SVM_CLASSIFIER,*,*,*,*,,,,,,,,
-8,amphet,0.722614841,0.717992249,0.682920408,"['age', 'country', 'cscore', 'impulsive', 'ss']",,,,,,,,
-9,canabis,0.819787986,0.817540041,0.785563608,"['age', 'country', 'ethnicity', 'oscore', 'cscore', 'ss']",,,,,,,,
-10,ecstasy,0.713780919,0.713382312,0.701832243,"['age', 'oscore', 'cscore', 'ss']",,,,,,,,
-11,legalh,0.77385159,0.775795723,0.768543029,"['age', 'gender', 'oscore', 'cscore', 'ss']",,,,,,,,
-12,lsd,0.819787986,0.82536657,0.789681062,"['age', 'country', 'ethnicity', 'oscore', 'ss']",,,,,Drugs,Max Recall,Max Precision,Max Accuracy
-13,mushrooms,0.775618375,0.782562128,0.765211231,"['age', 'country', 'oscore', 'cscore', 'ss']",,,,,amphet,0.722614841,0.717992249,0.682920408
-14,RANDOM_FOREST_CLASSIFIER,*,*,*,*,,,,,ecstasy,0.713780919,0.713382312,0.701832243
-15,amphet,0.685512367,0.700643841,0.671959871,"['age', 'country', 'cscore', 'impulsive', 'ss']",,,,,mushrooms,0.786219081,0.786475331,0.768588447
-16,canabis,0.772084806,0.778587845,0.750498673,"['age', 'country', 'ethnicity', 'oscore', 'cscore', 'ss']",,,,,legalh,0.782685512,0.783939195,0.776653171
-17,ecstasy,0.701413428,0.699683191,0.686481366,"['age', 'oscore', 'cscore', 'ss']",,,,,lsd,0.819787986,0.82536657,0.789681062
-18,legalh,0.782685512,0.783939195,0.776653171,"['age', 'gender', 'oscore', 'cscore', 'ss']",,,,,canabis,0.82155477,0.82558649,0.804427065
-19,lsd,0.761484099,0.758358132,0.696885083,"['age', 'country', 'ethnicity', 'oscore', 'ss']",,,,,,,,
-20,mushrooms,0.713780919,0.720569922,0.695307664,"['age', 'country', 'oscore', 'cscore', 'ss']",,,,,,,,
-21,KNN_CLASSIFIER,*,*,*,*,,,,,,,,
-22,amphet,0.699646643,0.701935932,0.670380224,"['age', 'country', 'cscore', 'impulsive', 'ss']",,,,,,,,
-23,canabis,0.82155477,0.82558649,0.804427065,"['age', 'country', 'ethnicity', 'oscore', 'cscore', 'ss']",,,,,,,,
-24,ecstasy,0.703180212,0.70553173,0.695097581,"['age', 'oscore', 'cscore', 'ss']",,,,,,,,
-25,legalh,0.780918728,0.78034825,0.770891726,"['age', 'gender', 'oscore', 'cscore', 'ss']",,,,,,,,
-26,lsd,0.791519435,0.799729423,0.758438819,"['age', 'country', 'ethnicity', 'oscore', 'ss']",,,,,,,,
-27,mushrooms,0.77385159,0.784636476,0.768588447,"['age', 'country', 'oscore', 'cscore', 'ss']",,,,,,,,
+,Drug,Recall,Precision,Balanced Accuracy,Selected Features
+0,TREE_CLASSIFIER,*,*,*,*
+1,amphet,0.6501766784452296,0.6443268622437044,0.6031482097328456,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+2,canabis,0.7632508833922261,0.7669899296369613,0.7352227882614624,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+3,ecstasy,0.6678445229681979,0.6660656690477561,0.6519516246236894,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+4,legalh,0.7226148409893993,0.7232321710250089,0.7127971556109207,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+5,lsd,0.7243816254416962,0.7265421084707608,0.6614544551998014,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+6,mushrooms,0.6890459363957597,0.6971066148841016,0.6692391289395128,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+7,SVM_CLASSIFIER,*,*,*,*
+8,amphet,0.7314487632508834,0.7307959623778839,0.7007399401396741,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+9,canabis,0.8109540636042403,0.8106810104745804,0.7819975604505991,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+10,ecstasy,0.7420494699646644,0.745727317571095,0.7376336551437765,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+11,legalh,0.7915194346289752,0.7902546413147119,0.7790537734869718,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+12,lsd,0.8091872791519434,0.8169015172107045,0.7803890543559195,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+13,mushrooms,0.7826855123674912,0.7872684450149783,0.7694482274771985,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+14,RANDOM_FOREST_CLASSIFIER,*,*,*,*
+15,amphet,0.6890459363957597,0.6868050856660737,0.6512166056978161,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+16,canabis,0.7791519434628975,0.7801491531258772,0.7483748295902992,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+17,ecstasy,0.726148409893993,0.7252377498378829,0.7136146579466418,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+18,legalh,0.7703180212014135,0.7697148864505198,0.7598749091664072,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+19,lsd,0.765017667844523,0.7683214599757167,0.7148485976669149,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+20,mushrooms,0.734982332155477,0.74480632726376,0.7233984014967053,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+21,KNN_CLASSIFIER,*,*,*,*
+22,amphet,0.7190812720848057,0.718061606201321,0.6863984037246424,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+23,canabis,0.8162544169611308,0.8186427610090337,0.7946760421898543,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+24,ecstasy,0.7438162544169611,0.7432939217779067,0.7326897124467975,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+25,legalh,0.7862190812720848,0.7846097642397788,0.7710474410879269,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+26,lsd,0.803886925795053,0.807567415184244,0.7650781831720029,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+27,mushrooms,0.7809187279151943,0.7889716223064619,0.7728254439904805,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"

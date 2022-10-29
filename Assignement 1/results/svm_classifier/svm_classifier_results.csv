@@ -1,8 +1,8 @@
 ,Drug,Recall,Precision,Balanced Accuracy,Selected Features
-0,amphet,0.7226148409893993,0.7179922485210994,0.6829204079370358,"['age', 'country', 'cscore', 'impulsive', 'ss']"
-1,canabis,0.8197879858657244,0.8175400407057514,0.7855636076630552,"['age', 'country', 'ethnicity', 'oscore', 'cscore', 'ss']"
-2,ecstasy,0.7137809187279152,0.7133823115537219,0.7018322433302191,"['age', 'oscore', 'cscore', 'ss']"
-3,legalh,0.773851590106007,0.7757957229259022,0.7685430291705595,"['age', 'gender', 'oscore', 'cscore', 'ss']"
-4,lsd,0.8197879858657244,0.8253665697100855,0.789681062298337,"['age', 'country', 'ethnicity', 'oscore', 'ss']"
-5,mushrooms,0.7756183745583038,0.7825621281005363,0.765211230792511,"['age', 'country', 'oscore', 'cscore', 'ss']"
-6,All drugs,0.7118804855270975,0.6901704487545054,0.7489585968652862,
+0,amphet,0.7314487632508834,0.7307959623778839,0.7007399401396741,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+1,canabis,0.8109540636042403,0.8106810104745804,0.7819975604505991,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+2,ecstasy,0.7420494699646644,0.745727317571095,0.7376336551437765,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+3,legalh,0.7915194346289752,0.7902546413147119,0.7790537734869718,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+4,lsd,0.8091872791519434,0.8169015172107045,0.7803890543559195,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+5,mushrooms,0.7826855123674912,0.7872684450149783,0.7694482274771985,"['age', 'gender', 'education', 'country', 'ethnicity', 'nscore', 'escore', 'oscore', 'ascore', 'cscore', 'impulsive', 'ss', 'semer']"
+6,All drugs,0.7227222009228572,0.7014524666483547,0.7582103685090232,

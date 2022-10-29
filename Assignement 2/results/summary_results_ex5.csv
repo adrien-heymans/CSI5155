@@ -1,0 +1,7 @@
+,Algorithm,Dataset,Mean cross-validated score,Parameters
+0,gradient_boosting,data/allData_normalized.csv,0.8206912079252504,"{'learning_rate': 0.01, 'max_depth': 1, 'n_estimators': 250}"
+1,gradient_boosting,data/DB1.csv,0.766798418972332,"{'learning_rate': 1, 'max_depth': 1, 'n_estimators': 5}"
+2,gradient_boosting,data/DB2.csv,0.9506097560975609,"{'learning_rate': 0.01, 'max_depth': 1, 'n_estimators': 5}"
+3,multi_layer_perceptron,data/allData_normalized.csv,0.8387200270178994,"{'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'solver': 'adam'}"
+4,multi_layer_perceptron,data/DB1.csv,0.7932806324110673,"{'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100,), 'learning_rate': 'adaptive', 'solver': 'adam'}"
+5,multi_layer_perceptron,data/DB2.csv,0.9563139260424863,"{'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'solver': 'adam'}"

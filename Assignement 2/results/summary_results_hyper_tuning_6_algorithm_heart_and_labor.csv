@@ -1,0 +1,13 @@
+,Algorithm,Dataset,Mean cross-validated score,Parameters
+0,tree_classifier,data/heart-disease/heart_normalized.csv,0.9949999999999999,"{'criterion': 'gini', 'max_depth': 2, 'splitter': 'best'}"
+1,tree_classifier,data/labor-negotiation/labor_negotiation_cleaned.csv,0.9166666666666666,"{'criterion': 'entropy', 'max_depth': 4, 'splitter': 'random'}"
+2,svm_classifier,data/heart-disease/heart_normalized.csv,0.99,{'degree': 1}
+3,svm_classifier,data/labor-negotiation/labor_negotiation_cleaned.csv,0.775,{'degree': 1}
+4,random_forest_classifier,data/heart-disease/heart_normalized.csv,1.0,"{'criterion': 'gini', 'max_depth': 3, 'n_estimators': 50}"
+5,random_forest_classifier,data/labor-negotiation/labor_negotiation_cleaned.csv,0.9416666666666667,"{'criterion': 'entropy', 'max_depth': 2, 'n_estimators': 50}"
+6,knn_classifier,data/heart-disease/heart_normalized.csv,1.0,"{'n_neighbors': 2, 'p': 1}"
+7,knn_classifier,data/labor-negotiation/labor_negotiation_cleaned.csv,0.925,"{'n_neighbors': 4, 'p': 1}"
+8,gradient_boosting,data/heart-disease/heart_normalized.csv,0.9949999999999999,"{'learning_rate': 0.01, 'max_depth': 1, 'n_estimators': 50}"
+9,gradient_boosting,data/labor-negotiation/labor_negotiation_cleaned.csv,0.8916666666666666,"{'learning_rate': 1, 'max_depth': 7, 'n_estimators': 5}"
+10,multi_layer_perceptron,data/heart-disease/heart_normalized.csv,0.99,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 50, 50), 'learning_rate': 'constant', 'solver': 'adam'}"
+11,multi_layer_perceptron,data/labor-negotiation/labor_negotiation_cleaned.csv,0.925,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 50, 50), 'learning_rate': 'constant', 'solver': 'adam'}"
